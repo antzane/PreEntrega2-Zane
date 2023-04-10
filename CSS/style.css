@@ -237,11 +237,7 @@ font-size: 15px;
     }
 }
 
-@media screen and (width: 1372px 600px){
-    .collapse{
-        display: none;
-    }
-}
+
 
 /*texto*/
 @media (max-width: 700px){
