@@ -1,3 +1,8 @@
+@font-face{
+    font-family: opensans;
+    src: url(../Fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
 /*ESTILOS GENERALES*/
 *{
     margin: 0;
@@ -12,10 +17,6 @@ li{
     color:whitesmoke;
 }
 
-@font-face{
-    font-family: opensans;
-    src: url(../Fonts/OpenSans-VariableFont_wdth\,wght.ttf);
-}
 
 h2{
     font-family: "opensans"
@@ -65,7 +66,6 @@ h5{
 
 /*nav bar*/
 .navbar{
-    background-color:#0449AF;
     position: sticky;
     top: 0;
     font-family: "opensans";
@@ -87,7 +87,6 @@ font-size: 18px;
 
 .navbar {
     display: inline-block;
-background-color: #0449AF; 
 }
 
 
@@ -228,7 +227,7 @@ font-size: 15px;
         }
     }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 990px){
     li{
         display: none;
     }
