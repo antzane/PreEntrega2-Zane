@@ -69,7 +69,7 @@ h5{
     position: sticky;
     top: 0;
     font-family: "opensans";
-    
+    width: 100%;
 }
 
 .navbar-items{
@@ -85,6 +85,10 @@ h5{
 font-size: 18px;
 }
 
+.navbar {
+    display: inline-block;
+background-color: #0449AF; 
+}
 
 
 

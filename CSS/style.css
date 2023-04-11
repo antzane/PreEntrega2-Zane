@@ -85,6 +85,10 @@ h5{
 font-size: 18px;
 }
 
+.navbar {
+    display: inline-block;
+background-color: #0449AF; 
+}
 
 
 
