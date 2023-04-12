@@ -85,7 +85,7 @@ h5{
 font-size: 18px;
 }
 
-.navbar {
+.nav-item .navbar-items {
     display: inline-block;
 }
 
@@ -227,10 +227,10 @@ font-size: 15px;
         }
     }
 
-@media screen and (max-width: 990px){
+/*@media screen and (max-width: 990px){
     li{
         display: none;
-    }
+    }*/
 
     label.menu{
         display: block;
@@ -238,7 +238,7 @@ font-size: 15px;
         color: chartreuse;
         cursor: pointer;
     }
-}
+
 
 
 
