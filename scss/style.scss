@@ -13,32 +13,6 @@ a{
     text-decoration: none;
 }
 
-li{
-    color:whitesmoke;
-}
-
-
-h2{
-    font-family: "opensans"
-}
-
-h1{
-    font-family: "opensans";
-}
-
-p{
-    font-family: "opensans";
-}
-
-h3{
-    font-family: "opensans";
-    font-size: 15px;
-
-}
-
-h5{
-    font-family: "opensans";
-}
 
 /*header*/ 
 .header-content{
@@ -77,10 +51,6 @@ h5{
         margin-top: 20px;
     }
 
-    .carrito-compras{
-        margin: 10px;
-    }
-
     .navbar-items:hover{
         font-size: 18px;
         }
@@ -89,7 +59,7 @@ h5{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: blue;
+        background-color: #0449AF;
     }
 
 
@@ -111,12 +81,6 @@ h5{
             }
             }
 
-    label.menu{
-        display: block;
-        font-size: 1.7em;
-        color: chartreuse;
-        cursor: pointer;
-            }
 }
 
 
@@ -278,3 +242,5 @@ width: 350px;
         font-size: 15px;
     }
 }
+
+@import "bucles"

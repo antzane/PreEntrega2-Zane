@@ -1,0 +1,7 @@
+//colores
+
+@each $color in #0449AF, white{
+    .#{color}{
+        color: $color
+    }
+}

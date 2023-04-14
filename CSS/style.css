@@ -12,31 +12,6 @@ a {
   text-decoration: none;
 }
 
-li {
-  color: whitesmoke;
-}
-
-h2 {
-  font-family: "opensans";
-}
-
-h1 {
-  font-family: "opensans";
-}
-
-p {
-  font-family: "opensans";
-}
-
-h3 {
-  font-family: "opensans";
-  font-size: 15px;
-}
-
-h5 {
-  font-family: "opensans";
-}
-
 /*header*/
 .header-content {
   background-color: #D8D9D8;
@@ -69,9 +44,6 @@ h5 {
 .navbar .navbar-items {
   margin-top: 20px;
 }
-.navbar .carrito-compras {
-  margin: 10px;
-}
 .navbar .navbar-items:hover {
   font-size: 18px;
 }
@@ -79,7 +51,7 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: #0449AF;
 }
 @media (max-width: 1084px) {
   .navbar .navbar-items {
@@ -95,12 +67,6 @@ h5 {
   .navbar .navbar-items {
     font-size: 12px;
   }
-}
-.navbar label.menu {
-  display: block;
-  font-size: 1.7em;
-  color: chartreuse;
-  cursor: pointer;
 }
 
 /*I N D E X*/
@@ -231,6 +197,13 @@ h5 {
   p {
     font-size: 15px;
   }
+}
+.color {
+  color: #0449AF;
+}
+
+.color {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
