@@ -69,7 +69,8 @@ h5{
     position: sticky;
     top: 0;
     font-family: "opensans";
-    width: 100%;
+    width: 100%; 
+    
 
     .navbar-items{
 
@@ -84,15 +85,14 @@ h5{
         font-size: 18px;
         }
 
-    .nav-item .navbar-items {
-        display: inline-block;
-        }
-
-    ul{
+    .navbar-collapse{
         display: flex;
-        justify-content: space-between;
-        
-        }
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+    }
+
+
     @media (max-width: 1084px){
         .navbar-items{
         font-size: 15px;
@@ -151,7 +151,7 @@ h5{
         width: 400px;
     }
     }
-    
+
 
 
 /*C R E A R   C U E N T A*/

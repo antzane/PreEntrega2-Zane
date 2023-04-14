@@ -75,12 +75,11 @@ h5 {
 .navbar .navbar-items:hover {
   font-size: 18px;
 }
-.navbar .nav-item .navbar-items {
-  display: inline-block;
-}
-.navbar ul {
+.navbar .navbar-collapse {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
 }
 @media (max-width: 1084px) {
   .navbar .navbar-items {
