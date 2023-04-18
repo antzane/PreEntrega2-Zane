@@ -1,3 +1,11 @@
+.color {
+  color: #0449AF;
+}
+
+.color {
+  color: white;
+}
+
 @font-face {
   font-family: opensans;
   src: url(../Fonts/OpenSans-VariableFont_wdth\,wght.ttf);
@@ -51,10 +59,9 @@ h3 {
   position: sticky;
   top: 0;
   width: 100%;
-  color: #0449AF;
 }
 .navbar .navbar-item {
-  color: #D8D9D8;
+  color: #27d527;
 }
 .navbar .navbar-items:hover {
   font-size: 18px;
@@ -63,7 +70,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0449AF;
+  background-color: #0f0f0f;
 }
 @media (max-width: 1084px) {
   .navbar .navbar-items {
@@ -100,8 +107,10 @@ h3 {
 }
 
 .pie-index {
-  background-color: blue;
-  height: 1000px;
+  /*background-color: blue;*/
+  /*background-image: linear-gradient(to top, white, rgb(3, 3, 131));*/
+  background: linear-gradient(90deg, rgb(9, 9, 121) 8%, rgb(2, 0, 36) 33%, rgb(6, 71, 162) 55%, rgb(4, 117, 192) 63%, rgb(3, 132, 202) 77%, rgb(3, 129, 200) 84%, rgb(2, 157, 218) 92%, rgb(0, 212, 255) 100%);
+  height: 200px;
 }
 
 @media (max-width: 797px) {
@@ -216,13 +225,6 @@ h3 {
   p {
     font-size: 15px;
   }
-}
-.color {
-  color: #0449AF;
-}
-
-.color {
-  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
