@@ -51,17 +51,27 @@ h3{
     margin: 50px 10px;
 }
 
+/*footer*/
 
+.pie-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #D8D9D8; 
+}
+
+.Logo-footer{
+    margin: 20px 20px;
+}
 
 /*nav bar*/
 .navbar{
     position: sticky;
     top: 0;
-    width: 100%; 
+    width: 100%;
 
-    .navbar-item{
-    color: #27d527;
-    }
+
 
     .navbar-items:hover{
         font-size: 18px;
@@ -71,7 +81,7 @@ h3{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #0f0f0f;
+        background-color: #0449AF;
  
     }
 
@@ -116,6 +126,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 
@@ -242,6 +253,31 @@ width: 350px;
     
     }
     }
+    
+.direccion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mapa{
+        width: 30%;
+    }
+}
+
+
+.texto-descripcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .descripcion{
+        width: 50%;
+    }
+
+}
+
 
 
 

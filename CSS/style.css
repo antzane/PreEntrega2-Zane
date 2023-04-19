@@ -54,14 +54,24 @@ h3 {
   margin: 50px 10px;
 }
 
+/*footer*/
+.pie-index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #D8D9D8;
+}
+
+.Logo-footer {
+  margin: 20px 20px;
+}
+
 /*nav bar*/
 .navbar {
   position: sticky;
   top: 0;
   width: 100%;
-}
-.navbar .navbar-item {
-  color: #27d527;
 }
 .navbar .navbar-items:hover {
   font-size: 18px;
@@ -70,7 +80,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0f0f0f;
+  background-color: #0449AF;
 }
 @media (max-width: 1084px) {
   .navbar .navbar-items {
@@ -104,6 +114,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .pie-index {
@@ -208,6 +219,26 @@ h3 {
     grid-template-areas: "descarga" "daniel" "carting" "carlosfranco" "andrea" "valen";
   }
 }
+.direccion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.direccion .mapa {
+  width: 30%;
+}
+
+.texto-descripcion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.texto-descripcion .descripcion {
+  width: 50%;
+}
+
 /*texto*/
 @media (max-width: 700px) {
   h1 {
